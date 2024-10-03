@@ -1,0 +1,40 @@
+# 关于部署Github工作流和pnpm软件包管理器
+
+
+
+​	我跟着官方文档教程[部署 VitePress 站点 | VitePress](https://vitepress.dev/zh/guide/deploy)、以及B站教程视频【手把手教你使用vitepress搭建并部署一个自己的知识库（无需服务器）】 https://www.bilibili.com/video/BV1XW4y1w7bc/?share_source=copy_web&vd_source=6da714985b7d49750851fb43c0236124时候遇到了一个问题：Github工作流不工作。
+
+​	于是我找到最初（也是up主引用的）AlbertZhang的教程，同时参考了 <a href="https://helloahao096.github.io/helloahao/posts/GitHub Action一键部署个人博客.html">npm部署个人博客</a>，发现他们仍然在使用”master“作为github仓库的主要分支，并将其推送到远程的工作流上。
+
+​	**在2020年，GitHub 开始将默认主分支的名称从 master 更改为 main。**对于某些功能，这两者似乎能够自动识别替换，但在手写的yml文件中，出现master将导致Github Action无法正常识别其作用的分支，不能自动将其部署在指定域名。
+
+​	另外，在部署博客的过程中，我尝试了pnpm（一种快速且节省磁盘空间的软件包管理程序，相当于npm的替代），并通过如下指令安装：
+
+```
+npm install -g pnpm
+```
+
+​	即使我已经设置了-g 全局环境配置，在运行pnpm命令时仍然提示：
+
+```
+pnpm : File 
+C:\~\pnpm.ps1 cannot be loaded because running s
+cripts is disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink
+/?LinkID=135170.
+At line:1 char:1
++ pnpm add -D vitepress
++ ~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+```
+
+​	这个错误是由于PowerShell阻止了脚本运行。
+
+​	解决思路：在当前用户的作用域下更改执行策略，而且并不需要以管理员身份运行。
+
+```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+```
+
+​	通常情况下似乎需要进一步确认某些命令，但我的PowerShell直接运行了这一指令然后没了下文，原因未知（尽管后续一切正常）

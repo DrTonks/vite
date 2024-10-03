@@ -19,12 +19,16 @@ hero:
     #   link: /_post/api-examples
 
 features:
+  - title: 部署网站问题
+    details: 1.Github工作流 2.pnpm使用异常
+    link: /post/问题解决/master
   - title: 关于LaTeX公式渲染
     details: $$E = mc^2$$？？？
     link: /post/问题解决/LaTeX
   - title: 机器学习笔记02
     details: 1.什么是偏导数？梯度和偏导数有什么联系？
     link: /post/学习笔记/机器学习笔记02
+
 
   - title: 未完待续...
     details: 暂时没有更多文档哦
