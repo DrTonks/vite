@@ -95,7 +95,8 @@ const customElements = [
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-	head: [["link", { rel: "icon", href: "https://tonks-blog-1329849192.cos.ap-chengdu.myqcloud.com/IMG_1512(20240928-154358).JPG" }]],
+  base:"/Vite/",
+  head: [["link", { rel: "icon", href: "https://tonks-blog-1329849192.cos.ap-chengdu.myqcloud.com/IMG_1512(20240928-154358).JPG" }]],
   title: "Dr.Tonks",
   description: "A site for learning",
   themeConfig: {
