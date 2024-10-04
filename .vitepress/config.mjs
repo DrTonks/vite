@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import mathjax3 from "markdown-it-mathjax3";
-import { set_sidebar } from "./utils/auto_sidebar.mjs";	// 改成自己的路径
+import { set_sidebar } from "./utils/auto_sidebar.mjs";	
 const customElements = [
 	
 	"math",
@@ -106,14 +106,16 @@ export default defineConfig({
     nav: [
 	
       { text: '主页', link: '/' },
-      { text: '学习笔记', 
-		items:[{text:'关于LaTeX的渲染',link:'/post/问题解决/LaTeX'}
-
+      { text: '问题解决', 
+		items:[{text:'关于LaTeX的渲染',link:'/post/问题解决/LaTeX'},
+			   {text:'Vitepress网站部署问题',link:'/post/问题解决/网站部署问题'},
 		]
 	   },
-	  { text: '问题解决', 
-		items:[{text:'机器学习笔记02',link:'/post/学习笔记/机器学习笔记02'}
-
+	  { text: '学习笔记', 
+		items:[{text:'ECMAScript规范学习01',link:'/post/学习笔记/ECMAScript规范学习01'},
+			{text:'ECMAScript规范学习02',link:'/post/学习笔记/ECMAScript规范学习02'},
+			{text:'ECMAScript规范学习03',link:'/post/学习笔记/ECMAScript规范学习03'},
+			{text:'机器学习笔记02',link:'/post/学习笔记/机器学习笔记02'},
 	  ] }
     ],
 
