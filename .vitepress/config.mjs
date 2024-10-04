@@ -113,7 +113,7 @@ export default defineConfig({
 	   },
 	  { text: '学习笔记', 
 		items:[
-			// {text:'ECMAScript规范学习01',link:'/post/学习笔记/ECMAScript规范学习01'},
+			{text:'ECMAScript规范学习01',link:'/post/学习笔记/ECMAScript规范学习01'},
 			{text:'ECMAScript规范学习02',link:'/post/学习笔记/ECMAScript规范学习02'},
 			{text:'ECMAScript规范学习03',link:'/post/学习笔记/ECMAScript规范学习03'},
 			{text:'机器学习笔记02',link:'/post/学习笔记/机器学习笔记02'},

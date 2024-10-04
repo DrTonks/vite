@@ -1,3 +1,11 @@
+---
+prev:  
+    text: '学习笔记 | ECMAScript规范学习02'
+    link: '/post/学习笔记/ECMAScript规范学习02'
+next:
+    text: '问题解决 | LaTeX的渲染'
+    link: '/post/问题解决/LaTeX'
+---
 # ECMAScript规范学习03·Promise和Fetch
 
 ### Promise：

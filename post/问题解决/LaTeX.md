@@ -1,3 +1,11 @@
+---
+next:  
+    text: '问题解决 | 网站部署问题'
+    link: '/post/问题解决/网站部署问题'
+prev:
+    text: '学习笔记 | 机器学习笔记02'
+    link: '/post/学习笔记/机器学习笔记02'
+---
 # Vitepress站点渲染Latex公式问题
 
 > #### 补药用npm install katex（反正我没成功qwq）
