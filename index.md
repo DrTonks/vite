@@ -22,7 +22,7 @@ features:
   - title: 部署网站问题
     details: 1.Github工作流 
              2.pnpm使用异常
-    link: /post/问题解决/master
+    link: /post/问题解决/网站部署问题
   - title: 关于LaTeX公式渲染
     details: $$E = mc^2$$   ？？？
     link: /post/问题解决/LaTeX
