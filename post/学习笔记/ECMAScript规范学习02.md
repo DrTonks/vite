@@ -1,4 +1,4 @@
-# ECMAScript语法规范·类/解构
+# ECMAScript语法规范02·类/解构
 
 ## 类 class
 
