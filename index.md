@@ -29,7 +29,9 @@ features:
   - title: 机器学习笔记02
     details: 1.什么是偏导数？梯度和偏导数有什么联系？
     link: /post/学习笔记/机器学习笔记02
-
+  - title: ES6学习笔记03
+    details: Promise与Fetch
+    link: /post/学习笔记/ECMAScript规范学习03
 
   - title: 未完待续...
     details: 暂时没有更多新文章哦
