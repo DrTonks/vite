@@ -122,6 +122,7 @@ export default defineConfig({
 			{text:'ECMAScript规范学习02',link:'/post/学习笔记/ECMAScript规范学习02'},
 			{text:'ECMAScript规范学习03',link:'/post/学习笔记/ECMAScript规范学习03'},
 			{text:'机器学习笔记02',link:'/post/学习笔记/机器学习笔记02'},
+			{text:'模块化开发笔记',link:'/post/学习笔记/模块化开发'},
 	  ] }
     ],
 
