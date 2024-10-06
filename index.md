@@ -14,9 +14,9 @@ hero:
     - theme: brand
       text: -->我的个人博客
       link: https://drtonks.github.io/myblog.github.io/
-    # - theme: alt
-    #   text: 我的
-    #   link: /_post/api-examples
+    - theme: alt
+      text: -->每日一题get start!
+      link: /post/前端每日一题/动态变化搜索栏
 
 features:
   - title: 部署网站问题

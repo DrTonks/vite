@@ -100,7 +100,7 @@ export default defineConfig({
   title: "Dr.Tonks",
   description: "A site for learning",
   themeConfig: {
-	outlineTitle: "目录",
+	outlineTitle: "当前文章目录",
 	outline: [2,6],
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -109,6 +109,11 @@ export default defineConfig({
       { text: '问题解决', 
 		items:[{text:'关于LaTeX的渲染',link:'/post/问题解决/LaTeX'},
 			   {text:'Vitepress网站部署问题',link:'/post/问题解决/网站部署问题'},
+		]
+	   },
+	   { text: '每日一题', 
+		items:[
+			   {text:'动态变化搜索栏',link:'/post/前端每日一题/动态变化搜索栏'},
 		]
 	   },
 	  { text: '学习笔记', 
