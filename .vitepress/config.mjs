@@ -114,6 +114,7 @@ export default defineConfig({
 	   { text: '每日一题', 
 		items:[
 			   {text:'动态变化搜索栏',link:'/post/前端每日一题/动态变化搜索栏'},
+			   {text:'登陆注册页面',link:'/post/前端每日一题/坐标获取（登录界面）'},
 		]
 	   },
 	  { text: '学习笔记', 
