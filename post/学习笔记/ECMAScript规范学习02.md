@@ -12,7 +12,7 @@ next:
 
 ### class 私有属性：
 
-```
+```js
 class Person{
 	name
 	#web
@@ -30,7 +30,7 @@ console.log(person.web) //输出undefined
 
 ​	获取私有属性。
 
-```
+```js
 class Person{
 	name
 	#web
@@ -51,7 +51,7 @@ console.log(person.web) //获取网址
 
 ​	尽管是私有属性，但是可以被修改。
 
-```
+```js
 class Person{
 	name
 	#web
@@ -101,7 +101,7 @@ console.log(person.web)  //获取7k7k网址
 
 ​	
 
-```
+```js
 //子类：可以有自己的方法 用extends构造
 class Tonks extends Person{
 	gender
@@ -123,7 +123,7 @@ console.log(Tonks.gender)//子类属性
 
 ### 数组解构·赋值
 
-```
+```js
 let [x,y]=[1,2]
 console.log(x,y)
 //略过某些元素
@@ -145,7 +145,7 @@ console.log("x=",x,"y=",y)
 
 ### 对象解构：
 
-```
+```js
 let person ={
 	name:"Tonks",
 	gender:"man!",

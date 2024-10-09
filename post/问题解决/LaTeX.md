@@ -23,7 +23,7 @@ npm install markdown-it-katex
 
 因此我们需要在.vitepress/config.js中添加如下代码：（具体标签来源于CSDN的Zhillery大佬的博客）
 
-```
+```js
 import { defineConfig } from 'vitepress'
 import markdownItKatex from 'markdown-it-katex'
 

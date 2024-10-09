@@ -8,7 +8,7 @@ next:
 
 #### 1.对象：
 
-```
+```js
 let boy = {
 	name: 'Tonks'，
 	age: 18,
@@ -38,7 +38,7 @@ for of用于遍历可迭代对象（数组、字符串、Set、Map...）
 
 所以使用for in（用于遍历对象的可枚举属性）
 
-```
+```js
 for(let key in boy){
 	console.log("forInKey",key,"value",boy)
 }  //value直接对应对象的属性值
@@ -46,7 +46,7 @@ for(let key in boy){
 
 forEach。区别其他forEach。
 
-```
+```js
 Object.entries(boy) //这条语句是个二维数组
 Object.entries(boy).forEach(([key,value])=>{
 	console.log("key",key,"v",value)
@@ -55,7 +55,7 @@ Object.entries(boy).forEach(([key,value])=>{
 
 清空用替代
 
-```
+```js
 boy = {}
 ```
 
@@ -63,7 +63,7 @@ boy = {}
 
 #### 2.Map操作
 
-```
+```js
 let boy = new Map{[
 	["name","Tonks"],
 	["age","18"]
@@ -72,7 +72,7 @@ let boy = new Map{[
 
 ​	本质上是实例化的对象，可通过`console.log(typeof boy)`检查。键值对应唯一。
 
-```
+```js
 boy.set("height",180)
 console.log(boy) 
 boy.delete("name")//删除“名字”和键对应项
@@ -88,7 +88,7 @@ console.log(boy.size)  //-->2
 
 解构：
 
-```
+```js
 for(let value of boy){
 	console.log("v",value)
 }
@@ -122,7 +122,7 @@ has：判断是否元素在其中，返回布尔值
 
 扩展运算符：...用于展开可迭代参数
 
-```
+```js
 //Array.from()和...扩展运算符有时能有一样的效果
 let me = "Dr.Tonks"
 let meArr= [...me]
@@ -143,7 +143,7 @@ let numberSet = new Set(numberArr)// -->[1,2,3]
 
 #### 4.Array数组操作
 
-```
+```js
 let arr=[10,11]
 console.log("arr",arr)  //-->[10,11]
 
@@ -165,7 +165,7 @@ arr.splice(要删除的元素索引位置（从0索引）,要删除的元素数�
 
 排序相关：
 
-```
+```js
 //sort
 let arr=[1,99,6]
 let arr2=["banana","apple","orange"]
@@ -185,7 +185,7 @@ let New=arr3.concat(arr4,19,20) //-->[10,11,12,13,14,15,"a","b",19,20]
 
 ```
 
-```
+```js
 //遍历
 
 //for ...of
@@ -210,7 +210,7 @@ arr5.forEach((value,index) =>{
 
 查询特定url函数：
 
-```
+```js
 function getweb(){
 	const url = window.location.href;     // 完整的 URL
 	
@@ -234,7 +234,7 @@ function getweb(){
 console.log(getweb())
 ```
 
-```
+```js
 //有参数
 function add(number  /*  =10  默认*/  ){
 	return number+10
@@ -248,7 +248,7 @@ console.log(sub(20,6)) //-->14
 
 重点：
 
-```
+```js
 //箭头函数
 let plus = (a,b)=>{
 	return a+b
@@ -267,7 +267,7 @@ console.log(plus2(20,9)) //-->29
 
 用于创建具有相同属性的方法的对象（梦回css）
 
-```
+```js
 class Person{
 	name
 	age

@@ -20,7 +20,7 @@ next:
 
 ​	已老实：
 
-```
+```js
 let promise = new Promise((resolve,reject)=>{
 	resolve("已老实")
 	//reject("没老实")	
@@ -33,7 +33,7 @@ promise.then(result=>{
 
 ​	没老实则需要捕获error：
 
-```
+```js
 let promise = new Promise((resolve,reject)=>{
 	//resolve("已老实")
 	reject("没老实")	
@@ -54,7 +54,7 @@ promise.then(result=>{    //老实了就用这个
 
 ​	基于promise的网络请求库
 
-```
+```js
 fetch('url').then(response=>{
 	//返回解析后的json数据会传递给下一个then()方法中的回调函数为参数，这个参数就是data
 	return response.json()  //reponse.json()解析响应数据为json
@@ -70,7 +70,7 @@ fetch('url').then(response=>{
 
 #### 请求POST：
 
-```
+```js
 fetch('url',{
 	method:'POST',
 	headers:{
@@ -93,7 +93,7 @@ fetch('url',{
 
 #### 请求postJson
 
-```
+```js
 fetch('url',{
 	method:'POST',
 	headers:{
