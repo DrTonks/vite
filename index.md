@@ -26,9 +26,9 @@ features:
   - title: 关于LaTeX公式渲染
     details: $$E = mc^2$$   ？？？
     link: /post/问题解决/LaTeX
-  - title: 机器学习笔记02
-    details: 1.什么是偏导数？梯度和偏导数有什么联系？
-    link: /post/学习笔记/机器学习笔记02
+  - title: 模块化开发
+    details: 模块的导入导出...
+    link: /post/学习笔记/模块化开发
   - title: ES6学习笔记03
     details: Promise与Fetch
     link: /post/学习笔记/ECMAScript规范学习03

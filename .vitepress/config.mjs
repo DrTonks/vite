@@ -115,10 +115,12 @@ export default defineConfig({
 		items:[
 			   {text:'动态变化搜索栏',link:'/post/前端每日一题/动态变化搜索栏'},
 			   {text:'JS坐标获取练习',link:'/post/前端每日一题/JS坐标获取练习'},
+			   {text:'CSS动画名片轮播图',link:'/post/前端每日一题/CSS动画名片轮播图'},
 		]
 	   },
 	  { text: '学习笔记', 
 		items:[
+			{text:'DOM操作学习',link:'/post/学习笔记/DOM操作学习'},
 			{text:'ECMAScript规范学习01',link:'/post/学习笔记/ECMAScript规范学习01'},
 			{text:'ECMAScript规范学习02',link:'/post/学习笔记/ECMAScript规范学习02'},
 			{text:'ECMAScript规范学习03',link:'/post/学习笔记/ECMAScript规范学习03'},
