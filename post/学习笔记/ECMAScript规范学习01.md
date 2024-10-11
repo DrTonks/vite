@@ -1,4 +1,11 @@
-
+---
+next:  
+    text: '学习笔记 | ECMAScript规范学习02'
+    link: '/学习笔记/ECMAScript规范学习02.md'
+prev:
+    text: ''
+    link: ''
+---
 # ECMAScript语法规范01·基础
 
 #### 1.对象：

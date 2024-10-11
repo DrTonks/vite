@@ -1,4 +1,11 @@
-
+---
+next:  
+    text: '问题解决 | 网站部署问题'
+    link: '/问题解决/网站部署问题.md'
+prev:
+    text: ''
+    link: ''
+---
 # Vitepress站点渲染Latex公式问题
 
 > #### 补药用npm install katex（反正我没成功qwq）
