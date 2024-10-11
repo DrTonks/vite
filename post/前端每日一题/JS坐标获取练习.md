@@ -1,10 +1,4 @@
----
-prev: 
-    text: '每日一题 | 动态变化搜索框'
-    link: '/post/前端每日一题/动态变化搜索栏'
-next:
-    false
----
+
 # 获取鼠标坐标来实现样式
 
 ### 	登录/注册前端样式：
@@ -297,3 +291,6 @@ document.addEventListener('click', function(e) {
 ```
 
 ​	
+  
+
+## [Next](../动态变化搜索栏.html)

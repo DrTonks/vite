@@ -1,9 +1,4 @@
----
-prev:  false
-next:
-    text: '学习笔记 | ECMAScript规范学习02'
-    link: '/post/学习笔记/ECMAScript规范学习02'
----
+
 # ECMAScript语法规范01·基础
 
 #### 1.对象：

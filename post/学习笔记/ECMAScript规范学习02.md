@@ -1,11 +1,4 @@
----
-prev:  
-    text: '学习笔记 | ECMAScript规范学习01'
-    link: '/post/学习笔记/ECMAScript规范学习01'
-next:
-    text: '学习笔记 | ECMAScript规范学习03'
-    link: '/post/学习笔记/ECMAScript规范学习03'
----
+
 # ECMAScript语法规范02·类/解构
 
 ## 类 class
@@ -157,4 +150,3 @@ console.log(name)
 let {name:username,gender,saying} = person
 console.log("name:",name,"gender:",gender,"saying:",saying)
 ```
-
