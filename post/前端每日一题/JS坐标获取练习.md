@@ -1,10 +1,10 @@
 ---
 next:  
     text: '前端每日一题 | 动态变化搜索栏'
-    link: '/前端每日一题/动态变化搜索栏.md'
+    link: '/post/前端每日一题/动态变化搜索栏.md'
 prev:
-    text: ''
-    link: ''
+    text: '前端每日一题 | CSS动画名片轮播图'
+    link: '/post/前端每日一题/CSS动画名片轮播图.md'
 ---
 # 获取鼠标坐标来实现样式
 
@@ -297,5 +297,4 @@ document.addEventListener('click', function(e) {
 });
 ```
 
-​	
-  
+​

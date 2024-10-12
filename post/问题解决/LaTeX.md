@@ -1,7 +1,7 @@
 ---
 next:  
     text: '问题解决 | 网站部署问题'
-    link: '/问题解决/网站部署问题.md'
+    link: '/post/问题解决/网站部署问题.md'
 prev:
     text: ''
     link: ''

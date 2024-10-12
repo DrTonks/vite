@@ -1,10 +1,10 @@
 ---
 next:  
     text: '学习笔记 | 机器学习笔记02'
-    link: '/学习笔记/机器学习笔记02.md'
+    link: '/post/学习笔记/机器学习笔记02.md'
 prev:
     text: '学习笔记 | ECMAScript规范学习02'
-    link: '/学习笔记/ECMAScript规范学习02.md'
+    link: '/post/学习笔记/ECMAScript规范学习02.md'
 ---
 # ECMAScript规范学习03·Promise和Fetch
 

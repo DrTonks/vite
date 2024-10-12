@@ -1,7 +1,7 @@
 ---
 next:  
     text: '学习笔记 | ECMAScript规范学习01'
-    link: '/学习笔记/ECMAScript规范学习01.md'
+    link: '/post/学习笔记/ECMAScript规范学习01.md'
 prev:
     text: ''
     link: ''

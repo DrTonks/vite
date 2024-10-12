@@ -1,10 +1,10 @@
 ---
 next:  
     text: '学习笔记 | ECMAScript规范学习03'
-    link: '/学习笔记/ECMAScript规范学习03.md'
+    link: '/post/学习笔记/ECMAScript规范学习03.md'
 prev:
     text: '学习笔记 | ECMAScript规范学习01'
-    link: '/学习笔记/ECMAScript规范学习01.md'
+    link: '/post/学习笔记/ECMAScript规范学习01.md'
 ---
 # ECMAScript语法规范02·类/解构
 

@@ -1,7 +1,7 @@
 ---
 next:  
     text: '前端每日一题 | JS坐标获取练习'
-    link: '/前端每日一题/JS坐标获取练习.md'
+    link: '/post/前端每日一题/JS坐标获取练习.md'
 prev:
     text: ''
     link: ''
