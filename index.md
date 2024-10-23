@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: -->我的个人博客
-      link: https://drtonks.github.io/myblog.github.io/
+      link: https://tonks.top/
     - theme: alt
       text: -->每日一题get start!
       link: /post/前端每日一题/动态变化搜索栏
